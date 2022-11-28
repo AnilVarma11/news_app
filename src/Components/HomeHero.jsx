@@ -8,7 +8,7 @@ import '../Styles/Homeh1.css';
 
 const HomeHero = () => {
 
-    const API_URL = 'https://newsdata.io/api/1/news?apikey=pub_1378745506b3c2dae0512720c898282e44ee5&q=trending%20news&country=in&language=en&category=world';
+    const API_URL = 'http://newsdata.io/api/1/news?apikey=pub_1378745506b3c2dae0512720c898282e44ee5&q=trending%20news&country=in&language=en&category=world';
     const current = new Date();
     const date = `${current.getDate()}-${current.getMonth()+1}-${current.getFullYear()}`;
 

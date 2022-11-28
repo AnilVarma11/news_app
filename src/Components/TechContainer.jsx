@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 const TechContainer = () => {
 
    
-    const API_URL = "https://newsapi.org/v2/top-headlines?country=in&us&category=technology&apiKey=6e141b98997d40fcb539f0bb6825e17e";
+    const API_URL = "http://newsapi.org/v2/top-headlines?country=in&us&category=technology&apiKey=6e141b98997d40fcb539f0bb6825e17e";
 
     const[sportContainer, setSportContainer] = useState([]);
 

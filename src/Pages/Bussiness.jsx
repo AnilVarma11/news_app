@@ -4,7 +4,7 @@ import BussinessContainer from '../Components/BussinessContainer';
 
 const Bussiness = () => {
 
-    const API_URL = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=6e141b98997d40fcb539f0bb6825e17e";
+    const API_URL = "http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=6e141b98997d40fcb539f0bb6825e17e";
 
     const [sport, setSport] = useState([]);
 
