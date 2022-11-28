@@ -1,0 +1,48 @@
+.containerss{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px auto;
+}
+
+
+.h1-container{
+    display: flex;
+    background-color: #800300;
+    color: #fff;
+    padding: 7px;
+}
+
+.h1-container img{
+    height: 80px;
+    width: 90px;
+    margin: 10px;
+}
+
+.h1-container .h1-content{
+    margin-top: 10px;
+}
+
+.h1-content p{
+  padding-top: 3px;
+}
+
+.h2-container{
+    height: 40px;
+    background-color: #cc0000;
+    color: #fff;
+}
+
+.h2-container p{
+   padding: 10px;
+}
+
+
+@media (max-width: 650px) {
+     .h1-content p{
+        font-size: 15px;
+     }    
+     .h1-content h2{
+        font-size: 20px;
+     }
+}

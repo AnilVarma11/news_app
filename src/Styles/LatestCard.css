@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.latest-card{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.card-flex{
+    display: flex;
+}
+
+.l-author p{
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+
+.l-image img{
+    height: 95%;
+    width: 250px;
+}
+
+.l-content{
+    padding-left: 20px;
+}
+
+.l-content p{
+    font-size: .95rem;
+}
+
+.l-content p:nth-child(1){
+    padding-top: 20px;
+}
+
+.l-content a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+@media (max-width: 650px) {
+
+    .latest-card{
+        width: 90%;
+    }
+
+    .l-image img{
+        height: 150px;
+        width: 90%;
+    }
+    .l-image{
+        text-align: center;
+    }
+    .card-flex{
+        flex-direction: column;
+    }
+    
+    .l-content p{
+        font-size: .9rem;
+    }
+
+    .l-content p:nth-child(1){
+        padding-top: 8px;
+        font-size: .9rem;
+    }
+
+    .l-content h2{
+        font-size: 1rem;
+        padding: 3px 0px;
+    }
+    
+    
+}
