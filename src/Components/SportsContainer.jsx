@@ -4,7 +4,7 @@ import '../Styles/SportsContainer.css';
 
 const SportsContainer = () => {
 
-    const API_URL = "http://newsapi.org/v2/top-headlines?country=in&us&category=sports&apiKey=6e141b98997d40fcb539f0bb6825e17e";
+    const API_URL = "https://newsapi.org/v2/top-headlines?country=in&us&category=sports&apiKey=6e141b98997d40fcb539f0bb6825e17e";
 
     const[sportContainer, setSportContainer] = useState([]);
 
